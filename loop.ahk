@@ -1,10 +1,13 @@
+global var
+var := 10
+
 r::
 
-Loop,
+Loop, 3
 
 {
-
-Send {Click}
+var +=1
+Send %var%
 
 Sleep 1
 
