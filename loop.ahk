@@ -3,14 +3,9 @@ var := 10
 
 r::
 
-Loop, 3
-
+Loop
 {
-var +=1
-Send %var%
-
-Sleep 1
-
+Click
 }
 
 
