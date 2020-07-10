@@ -10,4 +10,5 @@ Click
 
 
 
-p::exitapp
+p::pause
+q::exitapp
